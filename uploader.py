@@ -17,11 +17,17 @@ class anonfiles():
         url = (callapi['data']['file']['url']['full'])
         return url
 
+    
+    
+    
+    
+    
+    
+    
 path = 'YOUR_FILE_PATH'
 
 af = anonfiles()
 anon_link = af.upload(path)
 direct_link = af.dl(anon_link)
-
 
 print(anon_link, direct_link)
