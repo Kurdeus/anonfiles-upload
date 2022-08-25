@@ -2,7 +2,7 @@ import requests, html
 
 class anonfiles():
     def __init__(self):
-        self.drive_service = self.service()
+        self.x = None
 
     def dl(self, url):
         r = requests.get(url).content
