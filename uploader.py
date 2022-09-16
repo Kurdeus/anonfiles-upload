@@ -1,4 +1,5 @@
-import requests, html
+import requests
+from lxml import html
 
 class anonfiles():
     def __init__(self):
